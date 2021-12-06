@@ -13,7 +13,7 @@ socials:
 
 
 baseurl: '' # the subpath of your site, e.g. /blog
-url: https://www.preforcesschool.com # the base hostname & protocol for your site
+url: https://xhifi.github.io/preforces/ # the base hostname & protocol for your site
 
 author:
   name: Brainloggers
