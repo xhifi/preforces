@@ -1,0 +1,19 @@
+---
+---
+@import "../outsourced/bootstrap/bootstrap";
+
+$main-color: red;
+$secondary-color: darkgrey;
+$accent-color: #E9E9E9;
+$heading-size: 2rem;
+
+@import 'navigation';
+@import 'hero';
+// $b-radius: ;
+// $b-radius-lg: ;
+// $b-radius-sm: ;
+
+body{
+    font-size: 16px;
+    background-color: $accent-color;
+}

@@ -1,0 +1,45 @@
+.hero-block{
+    padding-bottom: 5rem;
+    .hero-container{
+        .hero-text{
+            padding: 0 8rem 0 8rem;
+            h1{
+                font-size: 2rem;
+            }
+        }
+        .hero-btn{
+            
+        }
+    }
+    .services-columns{
+        position: absolute;
+        left: 50%;
+        bottom: -14rem;
+        transform: translate(-50%);
+        .row{
+            border-radius: 2rem;
+            overflow: hidden;
+            .service-col{
+                .service-icon{
+                    .service-icon-styled{
+                        @extend .d-flex, .justify-content-center, .align-items-center;
+                        background: white;
+                        width: 5rem; height: 5rem;
+                        border-radius: 50%;
+                        .service-sprite{
+                            font-size: 2rem;
+                        }
+                    }
+                }
+                h2{
+    
+                }
+                p{
+                    margin: 0;
+                    padding: 0;
+                }
+            }
+        }
+    }
+}
+

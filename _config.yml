@@ -1,0 +1,36 @@
+# site settings
+title: Pre Forces High School
+email: info@preforceshighschool.com
+secondary_email: info@brainloggers.co.uk
+description: Providing education services from Nursery to Matriculation since 2001. Also preparing future Cadets to compete for National Level Cadet Selection in PAF and Pakitan Millitary Forces.
+socials:
+  phone: +92 300 9692458
+  whatsapp: +92 300 9692458
+  facebook: preforces
+  instagram: preforces
+  twitter: preforces
+  gmb: preforces
+
+
+baseurl: '' # the subpath of your site, e.g. /blog
+url: https://www.preforcesschool.com # the base hostname & protocol for your site
+
+author:
+  name: Brainloggers
+  facebook: brainloggers
+  email: info@brainloggers.co.uk
+
+# build settings
+markdown: kramdown
+
+livereload: true
+
+exclude:
+- "*.gemspec"
+- LICENSE.md
+- CONTRIBUTING.md
+- README.md 
+
+sass:
+  sass_dir: assets/style
+  style: compressed

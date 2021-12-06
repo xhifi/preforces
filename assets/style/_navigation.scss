@@ -1,0 +1,10 @@
+.justify-content-space-between{
+    justify-content: space-between;
+}
+.navigation-icon{
+    @extend .me-2;
+    font-size: 1.2rem;
+}
+.bg-accent{
+    background-color: $accent-color;
+}
