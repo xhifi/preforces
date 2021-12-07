@@ -1,5 +1,5 @@
 .hero-block{
-    padding-bottom: 5rem;
+    padding-bottom: 7rem;
     .hero-container{
         .hero-text{
             padding: 0 8rem 0 8rem;
@@ -11,35 +11,40 @@
             
         }
     }
-    .services-columns{
-        position: absolute;
-        left: 50%;
-        bottom: -14rem;
-        transform: translate(-50%);
-        .row{
-            border-radius: 2rem;
-            overflow: hidden;
-            .service-col{
-                .service-icon{
-                    .service-icon-styled{
-                        @extend .d-flex, .justify-content-center, .align-items-center;
-                        background: white;
-                        width: 5rem; height: 5rem;
-                        border-radius: 50%;
-                        .service-sprite{
-                            font-size: 2rem;
-                        }
+}
+
+.services-columns{
+    margin-top: -100px;
+    position: relative;
+    z-index: 10;
+    // DEPRICATED STYLES
+    // position: absolute;
+    // left: 50%;
+    // // top: -50%;
+    // transform: translate(-50%);
+    .row{
+        border-radius: 2rem;
+        overflow: hidden;
+        .service-col{
+            .service-icon{
+                .service-icon-styled{
+                    @extend .d-flex, .justify-content-center, .align-items-center;
+                    background: white;
+                    width: 5rem; height: 5rem;
+                    border-radius: 50%;
+                    .service-sprite{
+                        font-size: 2rem;
                     }
                 }
-                h2{
-    
-                }
-                p{
-                    margin: 0;
-                    padding: 0;
-                }
+            }
+            h2{
+                font-size: 1.4rem;
+            }
+            p{
+                margin: 0;
+                padding: 0;
+                font-size: 14px;
             }
         }
     }
 }
-

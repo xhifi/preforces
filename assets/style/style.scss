@@ -6,14 +6,33 @@ $main-color: red;
 $secondary-color: darkgrey;
 $accent-color: #E9E9E9;
 $heading-size: 2rem;
-
-@import 'navigation';
-@import 'hero';
 // $b-radius: ;
 // $b-radius-lg: ;
 // $b-radius-sm: ;
 
+@import 'navigation';
+@import 'hero';
+@import 'press-styles';
+@import 'call-to-action';
+@import 'news';
+
 body{
     font-size: 16px;
     background-color: $accent-color;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: bold;
+    font-family: 'Lora', serif;
+    font-weight: 700;
+}
+.border-curve-lg{
+    border-radius: 2rem;
+}
+.border-curve-bottom-sm{
+    border-bottom-right-radius: 0.6rem;
+    border-bottom-left-radius: 0.6rem;
+}
+.bg-transparent{
+    background: none !important;
 }
