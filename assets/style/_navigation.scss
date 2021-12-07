@@ -3,8 +3,19 @@
 }
 .navigation-icon{
     @extend .me-2;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .bg-accent{
     background-color: $accent-color;
+}
+.navbar-brand{
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.navigation-font-sm{
+    font-size: 0.8rem;
+}
+.footer-brand{
+    filter: brightness(100);
 }
