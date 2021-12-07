@@ -1,0 +1,21 @@
+.footer-block{
+    .footer-container{
+        .footer-row{
+            .footer-col{
+                .footer-list{
+                    li{
+                        transition: all 0.2s ease-in-out;
+                        &:hover{
+                            transform: translate(5px);
+                            transition: all 0.1s ease-in-out;
+                            cursor: pointer;
+                        }
+                        .footer-sprite{
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

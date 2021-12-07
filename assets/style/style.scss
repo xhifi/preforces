@@ -15,6 +15,7 @@ $heading-size: 2rem;
 @import 'press-styles';
 @import 'call-to-action';
 @import 'news';
+@import 'footer';
 
 body{
     font-size: 16px;
@@ -35,4 +36,27 @@ h1, h2, h3, h4, h5, h6{
 }
 .bg-transparent{
     background: none !important;
+}
+
+
+
+
+//Custom Logic To be moved
+
+.btn-main{
+    @extend .text-decoration-none;
+    border-radius: 0.8rem;
+    font-size: 1.2rem;
+    color: black;
+    // background-color: green;
+    .btn-sprite{
+        transition: all 0.3s ease-out;
+    }
+    &:hover{
+        color: black;
+        .btn-sprite{
+            transform: translate(100px);
+            transition: all 0.3s ease-out;
+        }
+    }
 }
